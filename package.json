@@ -11,7 +11,6 @@
     "url": "https://github.com/ianhomer/pattern-accessibility/issues"
   },
   "homepage": "https://github.com/ianhomer/pattern-accessibility#readme",
-  "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html",
     "clean": "rimraf dist",
