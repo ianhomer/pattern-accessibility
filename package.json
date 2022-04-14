@@ -1,0 +1,33 @@
+{
+  "name": "pattern-accessibility",
+  "version": "0.0.1",
+  "description": "Accessibility patterns",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianhomer/pattern-accessibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianhomer/pattern-accessibility/issues"
+  },
+  "homepage": "https://github.com/ianhomer/pattern-accessibility#readme",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rimraf dist",
+    "dev": "parcel src/index.html --lazy",
+    "lint": "pnpm prettier",
+    "lint:fix": "pnpm package:fix && pnpm prettier:fix",
+    "package:fix": "format-package -w",
+    "prettier": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
+    "start": "python3 -m http.server -d dist"
+  },
+  "devDependencies": {
+    "format-package": "^7.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "parcel": "^2.4.1",
+    "prettier": "^2.6.2"
+  }
+}

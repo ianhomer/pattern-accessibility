@@ -1,0 +1,36 @@
+html,
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: grey;
+  padding: 1em;
+  width: 12em;
+}
+
+div#app {
+  display: grid;
+  height: 100vh;
+}
+
+header {
+  height: auto;
+  padding: 1em;
+}
+
+main {
+  background-color: black;
+  color: #fff;
+}
+
+section {
+  padding: 1em;
+}
+
+a {
+  color: white;
+}
