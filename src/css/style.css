@@ -8,7 +8,6 @@ body {
 
 nav {
   background-color: grey;
-  padding: 1em;
   width: 12em;
 }
 
@@ -18,8 +17,11 @@ div#app {
 }
 
 header {
-  height: auto;
-  padding: 1em;
+  height: 1em;
+}
+
+header a { 
+  color: black;
 }
 
 main {
@@ -27,7 +29,7 @@ main {
   color: #fff;
 }
 
-section {
+article, nav, header, section {
   padding: 1em;
 }
 
